@@ -1,0 +1,26 @@
+name: app
+description: An example on how module loading could work
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  # Here we depend on the module for the mockup to work
+  # In real case this isn't needed, as the module will be loaded dynamically
+  example_module:
+    path: ../module
+
+# Entrydef probably isn't a good name
+# We need to think of better one
+entrydef:
+  # Here we define an entrypoint called "main"
+  # that should implement the LoadableModule interface
+  main: 'package:app/loadable_module.dart'
+
+publish_to: none
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
