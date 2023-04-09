@@ -1,7 +1,7 @@
 # Example
 This is a mockup example on how dynamic code loading could look like. I have no idea if it's possible to implement it like this, but it would be really neat if it was doable.
 # How it works
-We have two dart projects. Our app and a module that will be loaded by it.
+We have two dart projects. Our [app](https://github.com/SzczurekYT/Better-Dart/tree/5985006f9d9a4be6e779202ce958489597d19e75/Dynamic%20Runtime%20Code%20Loading/example/app) and a [module](https://github.com/SzczurekYT/Better-Dart/tree/5985006f9d9a4be6e779202ce958489597d19e75/Dynamic%20Runtime%20Code%20Loading/example/module) that will be loaded by it.
 From now on I will refer to the project's that are meant to be dynamically loaded by the app as modules.
 My mockup uses the concept of entrypoints.
 First the app defines an entrypoint in it's [pubscpec.yaml](https://github.com/SzczurekYT/Better-Dart/blob/e3c09df3392332301c8a35a7450f34a739056da2/Dynamic%20Runtime%20Code%20Loading/example/app/pubspec.yaml)
