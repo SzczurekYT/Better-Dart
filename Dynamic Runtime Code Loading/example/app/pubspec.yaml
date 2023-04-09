@@ -17,7 +17,7 @@ dependencies:
 entrydef:
   # Here we define an entrypoint called "main"
   # that should implement the LoadableModule interface
-  main: 'package:app/loadable_module.dart'
+  main: 'package:app/loadable_module.dart::LoadableModule'
 
 publish_to: none
 

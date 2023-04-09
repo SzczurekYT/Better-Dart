@@ -13,7 +13,7 @@ dependencies:
 # Here we declare an entrypoint "main"
 # It will be used to find the ExampleModule class
 entrypoints:
-  main: 'package:example_module/example_module.dart'
+  main: 'package:example_module/example_module.dart::ExampleModule'
 
 publish_to: none
 
