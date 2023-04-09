@@ -1,2 +1,2 @@
 # App
-This is an "app", that is meant to dynamically load and use the code provided in separate modules.
+This is the app, will dynamically load and use the code provided in separate modules.
